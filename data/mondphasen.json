@@ -1,0 +1,18 @@
+{
+  "mondphasen" : {
+    "Neumond" : {
+
+    },
+    "Vollmond" : {
+
+    },
+    "Zunehmender Mond" : {
+      "sehrgut" : "",
+      "gut": "",
+    },
+    "Abnehmender Mond" : {
+      "sehrgut" : "",
+      "gut" : ""
+    }
+  }
+}
