@@ -1,0 +1,21 @@
+.par-navigation {
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: @bottombar-height;
+    div{
+        float: left;
+        width: 33%;
+
+        height: 100%;
+        text-align: center;
+        padding-top: 12px;
+        cursor: pointer;
+        &.active{
+            background-color: #0b97c4;
+        }
+        &:hover{
+            background-color: rgba(12, 155, 201, 0.18);
+        }
+    }
+}

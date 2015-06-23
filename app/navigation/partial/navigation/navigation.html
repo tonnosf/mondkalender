@@ -1,0 +1,14 @@
+<md-list ng-controller="navigation.NavigationCtrl as navigation">
+    <md-list-item>
+        <md-button ng-click="navigation.goHome()" ng-class="{'active':(navigation.activeTab === 'home')}">
+            <md-icon class="avatar"></md-icon>
+            Home
+        </md-button>
+    </md-list-item>
+    <md-list-item>
+        <md-button ng-click="navigation.goTaetigkeit()" ng-class="{'active':(navigation.activeTab === 'taetigkeit')}">
+            <md-icon class="avatar"></md-icon>
+            Tätigkeit
+        </md-button>
+    </md-list-item>
+</md-list>
